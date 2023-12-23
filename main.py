@@ -32,10 +32,10 @@ selected_category = st.sidebar.multiselect("Select Category", all_categories,def
 df88 = df[df['Gender'].isin(selected_category)]
 
 # Main content
-st.title('Graphs with Filter')
+st.title('Graphs with Value Boxes')
 
 # Display filtered data
-st.write(f"Filtered Data for Category: {', '.join(selected_category)}")
+st.write(f"Entire Data for Category: {', '.join(selected_category)}")
 
 
 df88['Total Experience better than Average'] = np.where(df88['Total years of experience'] > df88['Total years of experience'] .mean(), 'Yes', 'No')
