@@ -2,5 +2,3 @@ streamlit
 plotly_express
 pandas
 numpy
-os
-
