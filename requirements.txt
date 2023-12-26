@@ -2,3 +2,4 @@ streamlit
 plotly_express
 pandas
 numpy
+streamlit-metrics
